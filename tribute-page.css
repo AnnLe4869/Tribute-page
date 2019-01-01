@@ -1,31 +1,39 @@
+* {
+    box-sizing: border-box;
+}
 html,
-body{
+body {
+    margin: 0;
+    padding: 0;
+}
+html,
+body {
     margin: 0px 30px;
     background: url(https://i0.wp.com/ficedu.org/wp-content/uploads/2016/07/Savin-NY-Website-Background-Web.jpg);
     background-repeat: repeat;
     background-size: cover;
 }
 
-@media (max-width: 600px){
+@media (max-width: 600px) {
     html,
-    body{
+    body {
         margin: 0px 1px;
     }
 }
 
-.center__page{
+.center__page {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-header{
+header {
     padding: 20px;
     margin: 0;
 }
 
-@media (max-width: 600px){
-    header{
+@media (max-width: 600px) {
+    header {
         padding: 8px;
     }
 }
@@ -35,23 +43,23 @@ img {
     width: 60vw;
 }
 
-@media (max-width: 600px){
-    img{
+@media (max-width: 600px) {
+    img {
         width: 95%;
     }
 }
-figure{
+figure {
     background-image: url(https://i.ytimg.com/vi/rdGhwe1Q6LY/maxresdefault.jpg);
     margin: 0;
     padding: 0;
 }
 
-figcaption{
+figcaption {
     text-align: center;
     padding-bottom: 20px;
 }
 
-footer{
+footer {
     text-align: center;
     color: #666;
 }
@@ -60,7 +68,7 @@ a,
 a:visited,
 a:link,
 a:active,
-a:hover{
+a:hover {
     text-decoration: none;
     color: rgb(226, 177, 177);
 }
